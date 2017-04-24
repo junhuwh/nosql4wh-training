@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nosql4wh-training
+  host: nosql4wh-training
+  disk_quota: 1024M
+  services:
+  - nosql4wh-training-cloudantNoSQLDB
